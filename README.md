@@ -27,6 +27,13 @@ For this project I've built a CMS-style blog site similar to a Wordpress site, w
 - Heroku
 - JawsDB
 
-## Screenshot
+## Screenshots
+
+![screenshot](/public/screenshots/home.png)
+![screenshot](/public/screenshots/empty-dashboard.png)
+![screenshot](/public/screenshots/dashboard.png)
+![screenshot](/public/screenshots/post.png)
+![screenshot](/public/screenshots/sign-up.png)
+![screenshot](/public/screenshots/sign-in.png)
 
 ## Fin
