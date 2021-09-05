@@ -5,7 +5,9 @@
 {{/if}}
 
 {{#if sortedPosts}}
+<h1 class="text-center p-5 text-light">Blog posts made by our users</h1>
 {{#each sortedPosts}}
+
 {{>post-card}}
 {{/each}}
 {{else}}

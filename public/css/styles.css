@@ -35,7 +35,7 @@ body {
 .add-post-btn,
 .edit-post-btn,
 .edit-comment-btn {
-  background-color: var(--sea);
+  background-color: var(--hunter);
   color: white;
   border: var(--fern);
 }
@@ -45,7 +45,7 @@ body {
 .add-post-btn:hover,
 .edit-post-btn:hover,
 .edit-comment-btn:hover {
-  background-color: #f68e9d;
+  background-color: var(--sea);
   color: white;
 }
 
@@ -56,7 +56,7 @@ body {
 
 #sign-up-link {
   text-decoration: none;
-  color: white;
+  color: var(--hunter);
 }
 #sign-up-link:hover {
   text-decoration: underline;
@@ -64,7 +64,7 @@ body {
 }
 
 .card-top {
-  background-color: var(--grey) !important;
+  background-color: var(--sea) !important;
 }
 
 .card-bottom {
