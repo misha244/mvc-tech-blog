@@ -9,7 +9,7 @@
 
 ## Project Link
 
-[_View my project here_](https://young-meadow-09572.herokuapp.com/)
+[_View my project here_](https://the-mvc-tech-blog.herokuapp.com/)
 
 ## About my Project
 
