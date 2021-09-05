@@ -1,16 +1,58 @@
 [
   {
-    "first_name": "Sarah",
-    "last_name": "Jones",
-    "email": "sarah.jones@email.com",
-    "username": "sarah.jones",
+    "first_name": "Alex",
+    "last_name": "Horne",
+    "email": "lilalex@taskmaster.com",
+    "username": "lilalexhorne",
     "password": "password123"
   },
   {
-    "first_name": "George",
-    "last_name": "Brown",
-    "email": "george.brown@email.com",
-    "username": "george.brown",
-    "password": "password456"
+    "first_name": "Rosalind",
+    "last_name": "Nightmare",
+    "email": "rosalind@abv.bg",
+    "username": "rosalind",
+    "password": "parola123"
+  },
+  {
+    "first_name": "Payner",
+    "last_name": "Planeta",
+    "email": "maznachalga@gmail.com",
+    "username": "paprika",
+    "password": "krusha"
+  },
+  {
+    "first_name": "Paulie",
+    "last_name": "Walnuts",
+    "email": "paul@mob.com",
+    "username": "paulie",
+    "password": "bigboss"
+  },
+  {
+    "first_name": "Christopher",
+    "last_name": "Moltisanti",
+    "email": "loyle2@mycapo.com",
+    "username": "chrissy",
+    "password": "ripadriana"
+  },
+  {
+    "first_name": "Matt",
+    "last_name": "Bevilacqua",
+    "email": "loveritchie@mail.com",
+    "username": "mattbevilacqua",
+    "password": "dietcoke"
+  },
+  {
+    "first_name": "Corrado",
+    "last_name": "Soprano",
+    "email": "junior@soprano.com",
+    "username": "unclejun",
+    "password": "varsityathlete"
+  },
+  {
+    "first_name": "Chris",
+    "last_name": "Paltrow",
+    "email": "bmore@west.com",
+    "username": "chrispaltrow",
+    "password": "youngleek"
   }
 ]

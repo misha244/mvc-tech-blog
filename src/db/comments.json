@@ -1,12 +1,37 @@
 [
   {
-    "message": "Great article! I love JavaScript!",
+    "message": "Wow, that sounds like a lovely educational program",
     "user_id": 2,
     "post_id": 1
   },
   {
-    "message": "Awesome algorithms!",
+    "message": "I'm going to watch it with my kids!",
+    "user_id": 2,
+    "post_id": 1
+  },
+  {
+    "message": "Remember Bob's friend, Gary Cheeseman?",
     "user_id": 1,
+    "post_id": 2
+  },
+  {
+    "message": "Yeah, I do. He had a big head, didn't he? Sniper's dream, they called him.",
+    "user_id": 2,
+    "post_id": 2
+  },
+  {
+    "message": "Really? His house looked like sh%t!",
+    "user_id": 5,
+    "post_id": 3
+  },
+  {
+    "message": "Yaba daba doooooooooo.",
+    "user_id": 3,
+    "post_id": 1
+  },
+  {
+    "message": "These pretzels are making me thirsty",
+    "user_id": 5,
     "post_id": 2
   }
 ]

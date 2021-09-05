@@ -1,12 +1,22 @@
 [
   {
-    "title": "Intro to Javascript",
-    "body": "Suspendisse non tempus tortor. Suspendisse at metus at turpis commodo tristique eu pharetra ipsum. Praesent a magna laoreet, imperdiet ex nec, volutpat lacus. Etiam commodo molestie blandit. Praesent vulputate vel lectus sed ultrices. Aliquam in sem condimentum urna placerat finibus. Nunc lobortis interdum libero, vitae interdum nisl. Vestibulum et luctus tellus. Sed ac aliquet nulla. Mauris varius odio at malesuada tempor. Pellentesque laoreet quam non sem semper, vel viverra purus rutrum.",
+    "title": "Leprosy",
+    "body": "Did you know that humans and armadillos are the only two species that can be affected by leprosy? I learned this from James Acaster on Taskmaster! Thank you, James",
     "user_id": 1
   },
   {
-    "title": "All About Algorithms",
-    "body": "Cras sit amet ex porta, commodo lacus non, vestibulum turpis. Fusce aliquet diam placerat massa luctus molestie. Fusce a sollicitudin turpis. Vestibulum pulvinar mi odio, at aliquet sem dictum nec. Maecenas nisi ligula, tempor vitae dictum vitae, posuere vitae turpis. Duis ac enim fermentum, sollicitudin ligula sodales, mollis magna. Donec euismod volutpat condimentum. Cras maximus sit amet sapien sit amet sodales. Nullam ornare dolor et arcu pharetra ornare. Aliquam magna lacus, aliquet sit amet nibh a, ullamcorper tristique magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies dui sed bibendum pharetra. Pellentesque maximus luctus diam ut congue. Integer congue orci felis, at consectetur turpis iaculis quis.",
+    "title": "Bob's Egg",
+    "body": "Speaking of Taskmaster contestants, Bob Mortimer once helped Damon Hill to win a Grand Prix by presenting him with a pre-race snack. The snack was a Scotch Egg.",
     "user_id": 2
+  },
+  {
+    "title": "The Russian",
+    "body": "Tony said we need to find him before he goes back to his boss! He killed 17 Czechoslovakian, that guy! He was an interior decorator",
+    "user_id": 4
+  },
+  {
+    "title": "How to find a New Yorker",
+    "body": "Just ask a Baltimore question.. like, Who Young Leek be? Or the Big Phat Morning Show..",
+    "user_id": 8
   }
 ]
