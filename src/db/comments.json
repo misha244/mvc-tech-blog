@@ -1,0 +1,12 @@
+[
+  {
+    "message": "Great article! I love JavaScript!",
+    "user_id": 2,
+    "post_id": 1
+  },
+  {
+    "message": "Awesome algorithms!",
+    "user_id": 1,
+    "post_id": 2
+  }
+]

@@ -1,0 +1,67 @@
+{{#if isLoggedIn}}
+{{>private-navbar}}
+{{else}}
+{{>public-navbar}}
+{{/if}}
+
+
+<div class="container">
+  <div class="card text-center mt-4" >
+    <div class="card-header fw-bold fs-4 card-top">
+    {{postObj.title}}
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{postObj.body}}</p>
+      <div>
+        <div><small class="text-muted">Written by {{postObj.user.username}}</small></div>
+         <div><small class="text-muted"> {{formatDate postObj.createdAt}}</small></div>
+      </div>
+       
+    </div>
+    <div class="card-footer fw-bold card-bottom">
+      Leave a comment
+    </div>
+    <div class="card-body">
+      {{#if isLoggedIn}}
+      <form name="comment-form" id="{{postObj.id}}">
+        <div class="mb-3">
+          <textarea class="form-control" id="commentData" rows="3"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary"  id="comment-btn">Add comment</button>
+        </div>
+      </form>
+      {{else}}
+        <div class="mb-3">
+          <div class="py-3">
+            <p class="card-text">Please <a class="comment-link" href="/login">login</a> or <a class="comment-link" href="/signup">signup</a> to leave a comment!</p>
+          </div>
+        </div>
+      {{/if}}
+    </div>
+    <div class="card-footer fw-bold card-bottom">
+      Comments
+    </div>
+    <div class="card-body">
+      <div class="list-group list-group-flush ">
+       
+        {{#each postObj.comments}}
+        <div  class="list-group-item list-group-item" >
+          <p name={{id}} class="mb-1 ">{{message}}</p>
+          <div><small id= {{../../postObj.id}}class="text-muted">-- {{user.username}}</small></div>
+         <div><small class="text-muted"> {{formatDate createdAt}}</small></div>
+        
+       {{#isUserComment ../username user.username}}
+         <div class="my-3">
+           
+            <a href="/comment/edit/{{../id}}" class="btn btn-primary edit-btn">Edit</a>
+            <button type="submit" data-post="{{../../postObj.id}}" name="delete-btn" id="{{../id}}" class="btn btn-primary delete-btn">Delete</button>
+         </div>
+       {{/isUserComment}}
+
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>

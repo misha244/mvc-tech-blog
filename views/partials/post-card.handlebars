@@ -1,0 +1,18 @@
+<div class="container mt-5">
+  <div class="card my-3">
+    <h5 class="card-header card-top">{{title}}</h5>
+    <div class="card-body">
+      <p class="card-text">
+        {{shortenBody body}}
+      </p>
+      <a href="/posts/{{id}}" class="btn btn-primary see-more-btn">Continue
+        Reading</a>
+    </div>
+    <div class="card-footer card-bottom text-muted">
+      Posted by
+      {{user.username}}
+      on
+      {{formatDate updatedAt}}
+    </div>
+  </div>
+</div>

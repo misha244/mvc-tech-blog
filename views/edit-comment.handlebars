@@ -1,0 +1,25 @@
+{{> private-navbar}}
+
+   <div class="container mt-5">
+      <div class="card my-3 shadow p-3 mb-5 bg-body rounded card-bottom">
+        <div class="card-body fs-2 text-center ">
+         {{firstName}}, need to edit your comment?
+        </div>
+      </div>
+      <form class="card shadow p-3 mb-5 bg-body rounded" data-post="{{comment.post_id}}"id="{{comment.id}}" name="edit-comment-form">
+
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            id="comment-message"
+            rows="6"
+          >{{comment.message}}</textarea>
+        </div>
+
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary edit-comment-btn" type="submit">
+            Save
+          </button>
+        </div>
+      </form>
+    </div>

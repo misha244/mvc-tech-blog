@@ -1,0 +1,57 @@
+{{> private-navbar}}
+
+{{#if posts}}
+<div class="container">
+<div class="card mt-3  shadow p-3 mb-5 bg-body rounded card-bottom">
+  <div class="card-body text-center">
+    <h2>Welcome {{firstName}} {{lastName}}!</h2>
+  </div>
+</div>
+
+<div class="d-grid gap-2">
+ <a href="/dashboard/create"class="btn btn-primary add-post-btn"><i class="fas fa-plus pe-3"></i>Create Post</a>
+</div>
+
+</div>
+{{#each posts}}
+<div class="container mt-5">
+  <div class="card my-3">
+    <div class="card-header card-top">
+      <h4>{{title}}</h4> 
+    </div>
+    
+    <div class="card-body">
+      <p class="card-text">
+        {{shortenBody body}}
+      </p>
+      <a href="/dashboard/edit/{{id}}" class="btn btn-primary edit-btn">Edit</a>
+    
+      <button type="submit" name="delete-btn" id="{{id}}" class="btn btn-primary delete-btn">Delete</button>
+   
+    </div>
+    <div class="card-footer card-bottom text-muted">
+      Posted by
+      {{user.username}}
+      on
+      {{formatDate updatedAt}}
+    </div>
+  </div>
+</div>
+{{/each}}
+{{else}}
+<div class="container">
+  <div class="card mt-5 md-w-75 lg-w-50  mx-auto shadow p-3 mb-5 bg-body rounded empty-dashboard">
+    <div class="card-body text-center p-3">
+      <h2 class="pb-2"> Welcome to your dashboard {{firstName}}! </h2>
+      <h5 class="my-3">You haven't added any blog posts yet.</h5>
+     
+      <p class="card-text pt-3">What are you waiting for?</p>
+      <a href="/dashboard/create"class="btn btn-primary add-post-btn mt-3"><i class="fas fa-plus pe-3"></i>Create Post</a>
+     
+     
+    </div>
+  </div>
+</div>
+
+{{/if}}
+

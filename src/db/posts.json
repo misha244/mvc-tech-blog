@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Intro to Javascript",
+    "body": "Suspendisse non tempus tortor. Suspendisse at metus at turpis commodo tristique eu pharetra ipsum. Praesent a magna laoreet, imperdiet ex nec, volutpat lacus. Etiam commodo molestie blandit. Praesent vulputate vel lectus sed ultrices. Aliquam in sem condimentum urna placerat finibus. Nunc lobortis interdum libero, vitae interdum nisl. Vestibulum et luctus tellus. Sed ac aliquet nulla. Mauris varius odio at malesuada tempor. Pellentesque laoreet quam non sem semper, vel viverra purus rutrum.",
+    "user_id": 1
+  },
+  {
+    "title": "All About Algorithms",
+    "body": "Cras sit amet ex porta, commodo lacus non, vestibulum turpis. Fusce aliquet diam placerat massa luctus molestie. Fusce a sollicitudin turpis. Vestibulum pulvinar mi odio, at aliquet sem dictum nec. Maecenas nisi ligula, tempor vitae dictum vitae, posuere vitae turpis. Duis ac enim fermentum, sollicitudin ligula sodales, mollis magna. Donec euismod volutpat condimentum. Cras maximus sit amet sapien sit amet sodales. Nullam ornare dolor et arcu pharetra ornare. Aliquam magna lacus, aliquet sit amet nibh a, ullamcorper tristique magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies dui sed bibendum pharetra. Pellentesque maximus luctus diam ut congue. Integer congue orci felis, at consectetur turpis iaculis quis.",
+    "user_id": 2
+  }
+]

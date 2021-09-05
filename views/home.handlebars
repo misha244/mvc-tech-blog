@@ -1,0 +1,26 @@
+{{#if isLoggedIn}}
+{{>private-navbar}}
+{{else}}
+{{>public-navbar}}
+{{/if}}
+
+{{#if sortedPosts}}
+{{#each sortedPosts}}
+{{>post-card}}
+{{/each}}
+{{else}}
+<div class="container">
+  <div class="card mt-5 md-w-75 lg-w-50  mx-auto shadow p-3 mb-5 bg-body rounded empty-home">
+    <div class="card-body text-center p-5">
+      <h2 class="pb-2"> Welcome to our blog! </h2>
+      <h5 class="py-2">There are no blog posts just yet.</h5>
+     {{#if isLoggedIn}}
+      <p class="card-text pt-3">Get started and submit your first post!</p>
+      <a href="/dashboard/create"class="btn btn-primary add-post-btn mt-3"><i class="fas fa-plus pe-3"></i>Create Post</a>
+      {{else}}
+      <p class="card-text pt-3">Please <a class="comment-link" href="/login">login</a> or <a class="comment-link" href="/signup">signup</a> to get started and submit your first post!</p>
+    </div>
+  </div>
+</div>
+{{/if}}
+{{/if}}

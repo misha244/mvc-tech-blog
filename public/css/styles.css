@@ -1,0 +1,114 @@
+#login-btn,
+#sign-up-btn,
+.see-more-btn,
+#comment-btn,
+.edit-btn {
+  background-color: #ff9d8e;
+  border: #ff9d8e;
+}
+
+#login-btn:hover,
+#sign-up-btn:hover,
+.see-more-btn:hover,
+#comment-btn:hover,
+.edit-btn:hover {
+  background-color: #e9998d;
+}
+
+#logout-btn,
+.delete-btn,
+.add-post-btn,
+.edit-post-btn,
+.edit-comment-btn {
+  background-color: #5c1e4a;
+  color: white;
+  border: #5c1e4a;
+}
+
+#logout-btn:hover,
+.delete-btn:hover,
+.add-post-btn:hover,
+.edit-post-btn:hover,
+.edit-comment-btn:hover {
+  background-color: #834371;
+  color: white;
+}
+
+#nav-link:hover {
+  color: #834371;
+  font-weight: bolder;
+}
+
+#sign-up-link {
+  text-decoration: none;
+  color: #e9998d;
+}
+#sign-up-link:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.card-top {
+  background-color: #b0d4ce !important;
+}
+
+.card-bottom {
+  background-color: #e4f1ef !important;
+}
+
+.comment-link {
+  color: #e9998d;
+}
+
+.comment-link:hover {
+  color: #3b1c32;
+}
+
+@media screen and (min-width: 1201px) {
+  .signup-form {
+    margin-top: 7% !important;
+    width: 60% !important;
+  }
+  .login-form,
+  .empty-dashboard,
+  .empty-home {
+    margin-top: 10% !important;
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .signup-form {
+    margin-top: 10% !important;
+    width: 75% !important;
+  }
+  .login-form {
+    margin-top: 15% !important;
+    width: 70% !important;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .signup-form {
+    margin-top: 15% !important;
+    width: 80% !important;
+  }
+
+  .login-form {
+    margin-top: 20% !important;
+    width: 80% !important;
+  }
+
+  .logo {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .signup-form {
+    margin-top: 20% !important;
+    width: 90% !important;
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+  }
+}
