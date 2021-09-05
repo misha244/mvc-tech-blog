@@ -1,10 +1,23 @@
+:root {
+  --jet: #353535;
+  --green: #82b5a5;
+  --blue: #9fbfff;
+  --white: #ffffff;
+  --pink: #f9d9eb;
+  --orange-yellow: #f8cf61;
+  --red: #f36b7f;
+}
+.navbar {
+  background-color: var(--pink);
+}
+
 #login-btn,
 #sign-up-btn,
 .see-more-btn,
 #comment-btn,
 .edit-btn {
-  background-color: #ff9d8e;
-  border: #ff9d8e;
+  background-color: var(--red);
+  border: var(--pink);
 }
 
 #login-btn:hover,
@@ -12,7 +25,7 @@
 .see-more-btn:hover,
 #comment-btn:hover,
 .edit-btn:hover {
-  background-color: #e9998d;
+  background-color: #f68e9d;
 }
 
 #logout-btn,
@@ -20,9 +33,9 @@
 .add-post-btn,
 .edit-post-btn,
 .edit-comment-btn {
-  background-color: #5c1e4a;
+  background-color: var(--red);
   color: white;
-  border: #5c1e4a;
+  border: var(--pink);
 }
 
 #logout-btn:hover,
@@ -30,18 +43,18 @@
 .add-post-btn:hover,
 .edit-post-btn:hover,
 .edit-comment-btn:hover {
-  background-color: #834371;
+  background-color: #f68e9d;
   color: white;
 }
 
 #nav-link:hover {
-  color: #834371;
+  color: var(--red);
   font-weight: bolder;
 }
 
 #sign-up-link {
   text-decoration: none;
-  color: #e9998d;
+  color: var(--blue);
 }
 #sign-up-link:hover {
   text-decoration: underline;
@@ -49,19 +62,19 @@
 }
 
 .card-top {
-  background-color: #b0d4ce !important;
+  background-color: var(--blue) !important;
 }
 
 .card-bottom {
-  background-color: #e4f1ef !important;
+  background-color: var(--blue) !important;
 }
 
 .comment-link {
-  color: #e9998d;
+  color: var(--pink);
 }
 
 .comment-link:hover {
-  color: #3b1c32;
+  color: var(--pink);
 }
 
 @media screen and (min-width: 1201px) {
